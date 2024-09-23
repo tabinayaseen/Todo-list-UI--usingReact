@@ -1,0 +1,101 @@
+body{
+    background: #000000; 
+    background: -webkit-linear-gradient(to right, #434343, #000000); 
+    background: linear-gradient(to right, #434343, #000000); 
+}
+
+.todo-list {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background: #3E5151;  
+    background: -webkit-linear-gradient(to right, #8b8a92, #3E5151);  
+    background: linear-gradient(to right, #8b8a92, #3E5151); 
+    
+  }
+  
+  .todo-list h1 {
+    margin-top: 0;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .todo-list form {
+    margin-bottom: 20px;
+  }
+
+  
+  .todo-list input[type="text"] {
+    width: 380px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list input[type="text"]:focus {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-list button[type="submit"] {
+    background-color: #3E5151;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+  }
+  
+  .todo-list button[type="submit"]:hover {
+    background-color: #2d3b3b;
+    color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .todo-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+  }
+  
+  .todo-list li:hover {
+    background-color: #9bafaf;
+  }
+  
+  .todo-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .todo-list button {
+    background-color: #739191;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list button:hover {
+    background-color: #f5f5f5;
+    color: #2d3b3b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-list span {
+    margin-right: 10px;
+    color: white;
+  }
+
